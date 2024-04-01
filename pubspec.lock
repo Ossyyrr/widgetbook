@@ -584,6 +584,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.4.4"
+  widget_driver:
+    dependency: "direct main"
+    description:
+      name: widget_driver
+      sha256: "09dacb96ab53ac036456828a63ef4ff800b31b21d1169aebf9e3c90c7d051ba1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.8"
+  widget_driver_annotation:
+    dependency: transitive
+    description:
+      name: widget_driver_annotation
+      sha256: "4853b22f551b9ea550e6c5e9c6bf56a65c0002772908cfae50084856f5f4ec40"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
   widgetbook:
     dependency: "direct main"
     description:
