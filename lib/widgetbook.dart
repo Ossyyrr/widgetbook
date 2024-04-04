@@ -51,6 +51,7 @@ class WidgetbookApp extends StatelessWidget {
         LocalizationAddon(
           locales: [
             const Locale('en', 'US'),
+            const Locale('es', 'ES'),
           ],
           localizationsDelegates: [
             DefaultWidgetsLocalizations.delegate,
@@ -61,6 +62,7 @@ class WidgetbookApp extends StatelessWidget {
           devices: [
             Devices.ios.iPhoneSE,
             Devices.ios.iPhone13,
+            Devices.ios.iPad,
           ],
         ),
         GridAddon(),
